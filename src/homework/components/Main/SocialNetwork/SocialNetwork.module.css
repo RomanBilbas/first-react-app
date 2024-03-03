@@ -1,0 +1,26 @@
+.SocialNetwork {
+  text-align: left;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)),
+    #ffffff;
+}
+.SocialNetworkContainer {
+  border-top: 1px solid #edeff3;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+.approved {
+  display: block;
+}
+.allRight {
+  font-size: 16px;
+}
+.SocialNetworkFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

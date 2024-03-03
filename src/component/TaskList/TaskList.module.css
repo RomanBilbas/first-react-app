@@ -1,0 +1,41 @@
+.taskListContainer {
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ddd;
+  margin: 8px 0;
+}
+
+.taskInput {
+  margin-top: 16px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 8px;
+  width: 60%;
+}
+
+button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

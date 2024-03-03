@@ -1,0 +1,61 @@
+.recomendation {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.02)),
+    #ffffff !important;
+}
+.recomendationContainer {
+  margin: 50px;
+}
+.recomendationTitle {
+  text-align: center;
+}
+.recomendationTitle h2 {
+  color: #343434;
+}
+.recomendationTitle p {
+  color: #828282;
+  font-weight: 400;
+}
+.recomendationInfo {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.recomendationCard {
+  border-radius: 24px;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.04);
+  padding: 25px;
+  background: #fff;
+  width: 50%;
+}
+.recomendationCard img {
+  display: flex;
+  margin: 0 auto;
+}
+.recomendationCard_title {
+  text-align: center;
+}
+.recomendationCard_title p {
+  color: #828282;
+}
+.recomendationCard_button {
+  display: flex;
+  justify-content: center;
+}
+.recomendationCard_button a {
+  background: linear-gradient(271.19deg, #4433f1 0%, #628eff 100%),
+    linear-gradient(271.19deg, #307df6 0%, #14bbbf 100%), #ffffff;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  transition: all 1s ease;
+}
+.recomendationCard_button a:hover {
+  transition: all 1s ease;
+  background: linear-gradient(45.19deg, #4433f1 0%, #628eff 100%),
+    linear-gradient(271.19deg, #307df6 0%, #14bbbf 100%), #ffffff;
+}

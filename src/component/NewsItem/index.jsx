@@ -1,12 +1,7 @@
 import React from 'react'
 
-function NewsItem ({ news: { title, body } }) {
-  return (
-    <>
-      <h1>{title}</h1>
-      <p>{body}</p>
-    </>
-  )
+function NewsItem () {
+  return <div>HELLO WORLD!</div>
 }
 
 export default NewsItem

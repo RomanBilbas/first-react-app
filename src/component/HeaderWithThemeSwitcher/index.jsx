@@ -1,5 +1,7 @@
+import ThemeSwitcher from './ThemeSwitcher'
+
 function HeaderWithThemeSwither () {
-  return <div>HeaderWithThemeSwither</div>
+  return <ThemeSwitcher />
 }
 
 export default HeaderWithThemeSwither

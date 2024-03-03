@@ -1,9 +1,9 @@
-import UserPage from './Pages/UserPage'
+import FirstPage from './homework/pages/firstPage'
 
 function App () {
   return (
     <>
-      <UserPage />
+      <FirstPage />
     </>
   )
 }

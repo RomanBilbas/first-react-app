@@ -1,0 +1,16 @@
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navItemCenter {
+  display: flex;
+
+  gap: 20px;
+}
